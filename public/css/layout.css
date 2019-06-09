@@ -297,9 +297,9 @@ ul#nav li.current a { color: #F06000; }
 }
 .bars li {
    position: relative;
-  	margin-bottom: 60px;
+  	margin-bottom: 40px;
   	background: #ccc;
-  	height: 42px;
+  	height: 24px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -309,7 +309,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 2px;
 	font-weight: normal;
    position: relative;
-	top: -36px;
+	top: -26px;
 }
 .bar-expand {
    position: absolute;
@@ -320,8 +320,8 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 24px;
+   line-height: 24px;
    border-radius: 3px 0 0 3px;
 }
 /*
