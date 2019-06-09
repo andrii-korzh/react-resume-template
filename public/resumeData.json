@@ -35,63 +35,167 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"National Aviation University",
+        "degree":"Master degree in Software Engineering",
+        "graduated":"2010",
+        "description":""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"National Aviation University",
+        "degree":"Master degree in Computer Science",
+        "graduated":"2008",
+        "description":""
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"BusinessWire",
+        "title":"Software Engineer",
+        "years":"2017 - Present",
+        "description":"www.businesswire.com"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"UrbanScience",
+        "title":"Software Engineer",
+        "years":"2016 - 2017",
+        "description":"//www.urbanscience.com"
+      },
+      {
+        "company":"MEDITsystems",
+        "title":"Software Engineer",
+        "years":"2013 - 2016",
+        "description":"www.meditsystems.de"
+      },
+      {
+        "company":"GlobalLogic",
+        "title":"Software Engineer",
+        "years":"2012 - 2013",
+        "description":"www.globallogic.com"
+      },
+      {
+        "company":"Samsung Research & Development",
+        "title":"Software Engineer",
+        "years":"2011 - 2012",
+        "description":"research.samsung.com"
+      },
+      {
+        "company":"Lombard Alliance",
+        "title":"Software Engineer",
+        "years":"2010 - 2011",
+        "description":""
+      },
+      {
+        "company":"Elan ltd",
+        "title":"Software Engineer",
+        "years":"2007 - 2010 (part-time)",
+        "description":""
       }
     ],
+    "skillmessage":"AWS Certified Developer/SysOps Administrator/Solutions Architect",
+    "proficient":"JavaSE, SQL, SDLC, Software Design/Architecture, Testing, CodeReview, CI/CD, Jenkins, Git",
+    "exposure":"AWS, JavaEE, Go, React, GWT/Vaadin, Maven, Docker, Spring, Hibernate, Liferay, Linux, Bash.",
     "skills":[
       {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
+        "name":"java",
         "level":"90%"
       },
       {
-        "name":"HTML5",
+        "name":"sql",
+        "level":"70%"
+      },
+      {
+        "name":"git",
         "level":"80%"
       },
       {
-        "name":"VueJs",
+        "name":"go",
         "level":"50%"
       },
       {
-        "name":"MongoDB",
+        "name":"javascript",
+        "level":"30%"
+      },
+      {
+        "name":"react",
+        "level":"40%"
+      },
+      {
+        "name":"docker",
+        "level":"30%"
+      },
+      {
+        "name":"code-quality",
         "level":"80%"
+      },
+      {
+        "name":"code-readability",
+        "level":"90%"
+      },
+      {
+        "name":"code-review",
+        "level":"90%"
+      },
+      {
+        "name":"testing",
+        "level":"70%"
+      },
+      {
+        "name":"software design",
+        "level":"90%"
+      },
+      {
+        "name":"software architecture",
+        "level":"80%"
+      },
+      {
+        "name":"Continuous Improvement",
+        "level":"75%"
+      },
+      {
+        "name":"Continuous Integration",
+        "level":"80%"
+      },
+      {
+        "name":"Continuous Delivery",
+        "level":"75%"
+      },
+      {
+        "name":"Continuous Deployment",
+        "level":"70%"
+      },
+      {
+        "name":"Methodologies",
+        "level":"60%"
+      },
+      {
+        "name":"Scrum",
+        "level":"90%"
+      },
+      {
+        "name":"Troubleshooting",
+        "level":"95%"
+      },
+      {
+        "name":"Empathy",
+        "level":"80%"
+      },
+      {
+        "name":"Problem Solving",
+        "level":"95%"
+      },
+      {
+        "name":"Collaboration",
+        "level":"75%"
+      },
+      {
+        "name":"Communication",
+        "level":"75%"
+      },
+      {
+        "name":"Creativity",
+        "level":"85%"
       }
     ]
   },

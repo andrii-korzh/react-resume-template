@@ -5,6 +5,8 @@ class Resume extends Component {
 
     if(this.props.data){
       var skillmessage = this.props.data.skillmessage;
+      var proficient = this.props.data.proficient;
+      var exposure = this.props.data.exposure;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -54,22 +56,19 @@ class Resume extends Component {
 
 
       <div className="row skill">
-
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Certificates</span></h1>
          </div>
-
          <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
+            <h5>{skillmessage}
+            </h5>
+			<br/>
+			<div className="bars">
+			   <ul className="skills">
+				  {/*{skills}*/}
+				</ul>
 			</div>
+		 </div>
       </div>
    </section>
     );
