@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Certificates from "./Certificates";
 
 class Resume extends Component {
 	render() {
@@ -59,8 +60,7 @@ class Resume extends Component {
 						<h1><span>Certificates</span></h1>
 					</div>
 					<div className="nine columns main-col">
-						<h5>{skillmessage}
-						</h5>
+						<Certificates/>
 						<br/>
 						<div className="bars">
 							<ul className="skills">
