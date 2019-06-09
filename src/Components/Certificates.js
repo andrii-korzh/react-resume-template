@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 
+const img_home = "images/aws/";
+const practitioner = img_home + "aws_practitioner.png";
+const architect = img_home + "aws_solution_architect.png";
+const developer = img_home + "aws_developer.png";
+const sysops = img_home + "aws_sysops_administrator.png";
+const badge_url = "https://www.certmetrics.com/amazon/public/badge.aspx";
+const practitioner_url = badge_url + "?i=9&t=c&d=2018-12-27&ci=AWS00691366";
+const architect_url = badge_url + "?i=1&t=c&d=2018-12-31&ci=AWS00691366";
+const developer_url = badge_url + "?i=2&t=c&d=2019-01-04&ci=AWS00691366";
+const sysops_url = badge_url + "?i=3&t=c&d=2019-01-11&ci=AWS00691366";
+
 class Certificates extends Component {
 	render() {
-
-		var practitioner = "images/aws/aws_practitioner.png";
-		var practitioner_url = "https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2018-12-27&ci=AWS00691366";
-		var architect = "images/aws/aws_solution_architect.png";
-		var architect_url = "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-12-31&ci=AWS00691366";
-		var developer = "images/aws/aws_developer.png";
-		var developer_url = "https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2019-01-04&ci=AWS00691366";
-		var sysops = "images/aws/aws_sysops_administrator.png";
-		var sysops_url = "https://www.certmetrics.com/amazon/public/badge.aspx?i=3&t=c&d=2019-01-11&ci=AWS00691366";
-
-
 		return (
 			<section id="certificates">
 				<a href={practitioner_url}>

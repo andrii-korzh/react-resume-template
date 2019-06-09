@@ -64,7 +64,7 @@ class Resume extends Component {
 						<br/>
 						<div className="bars">
 							<ul className="skills">
-								{/*{skills}*/}
+								{skills}
 							</ul>
 						</div>
 					</div>
