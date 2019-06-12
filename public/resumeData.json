@@ -52,45 +52,45 @@
     "work":[
       {
         "company":"BusinessWire",
+        "website":"http://www.businesswire.com",
         "title":"Software Engineer",
-        "years":"2017 - Present",
-        "description":"www.businesswire.com"
+        "years":"2017 - Present"
       },
       {
         "company":"UrbanScience",
+        "website":"http://www.urbanscience.com",
         "title":"Software Engineer",
-        "years":"2016 - 2017",
-        "description":"www.urbanscience.com"
+        "years":"2016 - 2017"
       },
       {
         "company":"MEDITsystems",
+        "website":"http://www.meditsystems.de",
         "title":"Software Engineer",
-        "years":"2013 - 2016",
-        "description":"www.meditsystems.de"
+        "years":"2013 - 2016"
       },
       {
         "company":"GlobalLogic",
+        "website":"http://www.globallogic.com",
         "title":"Software Engineer",
-        "years":"2012 - 2013",
-        "description":"www.globallogic.com"
+        "years":"2012 - 2013"
       },
       {
         "company":"Samsung Research & Development",
+        "website":"http://research.samsung.com",
         "title":"Software Engineer",
-        "years":"2011 - 2012",
-        "description":"research.samsung.com"
+        "years":"2011 - 2012"
       },
       {
         "company":"Lombard Alliance",
+        "website":"",
         "title":"Software Engineer",
-        "years":"2010 - 2011",
-        "description":""
+        "years":"2010 - 2011"
       },
       {
         "company":"Elan ltd",
+        "website":"",
         "title":"Software Engineer",
-        "years":"2007 - 2010 (part-time)",
-        "description":""
+        "years":"2007 - 2010 (part-time)"
       }
     ],
     "skillmessage":"AWS Certified Developer/SysOps Administrator/Solutions Architect",

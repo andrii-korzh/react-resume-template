@@ -11,10 +11,14 @@ const architect_url = badge_url + "?i=1&t=c&d=2018-12-31&ci=AWS00691366";
 const developer_url = badge_url + "?i=2&t=c&d=2019-01-04&ci=AWS00691366";
 const sysops_url = badge_url + "?i=3&t=c&d=2019-01-11&ci=AWS00691366";
 
+const center = {
+	textAlign: 'center'
+}
+
 class Certificates extends Component {
 	render() {
 		return (
-			<section id="certificates">
+			<section id="certificates" style={center}>
 				<a href={practitioner_url}>
 					<img src={practitioner} alt="AWS Practitioner badge"/>
 				</a>
