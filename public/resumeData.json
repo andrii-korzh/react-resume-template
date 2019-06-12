@@ -38,13 +38,13 @@
     "education":[
       {
         "school":"National Aviation University",
-        "degree":"Master degree in Software Engineering",
+        "degree":"Master's Degree in Software Engineering",
         "graduated":"2010",
         "description":""
       },
       {
         "school":"National Aviation University",
-        "degree":"Bachelor degree in Computer Science",
+        "degree":"Bachelor's Degree in Computer Science",
         "graduated":"2008",
         "description":""
       }
