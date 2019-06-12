@@ -109,11 +109,11 @@
       right: 0;
    }
    #nav-wrap > a {
-	   width: 48px;
-		height: 48px;
-		text-align: left;
-		background-color: #5fcc00;
-		position: relative;
+      width: 48px;
+      height: 48px;
+      text-align: left;
+      background-color: #5fcc00;
+      position: relative;
       border: none;
       float: right;
 
@@ -175,7 +175,7 @@
       border-bottom-style: dotted; 
    }
   
-   ul#nav li a {  
+   ul#nav li a {
       display: block;    
       margin: 0;
       padding: 0;      

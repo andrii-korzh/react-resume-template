@@ -10,7 +10,7 @@ class Header extends Component {
       var description= this.props.data.description;
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+        return <li key={network.name}><a href={network.url} aria-label={network.name}><i className={network.className}></i></a></li>
       })
     }
 
@@ -30,9 +30,7 @@ class Header extends Component {
             {/*<li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>*/}
             {/*<li><a className="smoothscroll" href="#contact">Contact</a></li>*/}
          </ul>
-	      <ul id="nav" className="nav">
-		      <Certificates/>
-	      </ul>
+	      <Certificates/>
 
       </nav>
 
@@ -48,7 +46,7 @@ class Header extends Component {
       </div>
 
         <p className="scrolldown">
-        <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+        <a className="smoothscroll" href="#about" aria-label="go-to-about"><i className="icon-down-circle"></i></a>
       </p>
    </header>
     );

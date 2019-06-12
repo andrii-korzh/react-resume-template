@@ -11,29 +11,49 @@ const architect_url = badge_url + "?i=1&t=c&d=2018-12-31&ci=AWS00691366";
 const developer_url = badge_url + "?i=2&t=c&d=2019-01-04&ci=AWS00691366";
 const sysops_url = badge_url + "?i=3&t=c&d=2019-01-11&ci=AWS00691366";
 
-const center = {
-	textAlign: 'center'
-}
+const practitionerDescription = "AWS Practitioner badge";
+const architectDescription = "AWS Solution Architect badge";
+const developerDescription = "AWS Developer badge";
+const sysOpsDescription = "AWS SysOps Administrator badge";
+
+const idPrefix = "certs-";
+let lastId = 0;
 
 class Certificates extends Component {
+	componentWillMount() {
+		this.id = idPrefix + (++lastId);
+	}
 	render() {
 		return (
-			<section id="certificates" style={center}>
-				<a href={practitioner_url}>
-					<img src={practitioner} alt="AWS Practitioner badge"/>
+		<section style={center}>
+			<ul className="nav">
+				{this.getCertificate(practitioner_url, practitioner_url, practitioner, practitionerDescription)}
+				{this.getCertificate(architect_url, architect_url, architect, architectDescription)}
+				{this.getCertificate(developer_url, developer_url, developer, developerDescription)}
+				{this.getCertificate(sysops_url, sysops_url, sysops, sysOpsDescription)}
+			</ul>
+		</section>
+	)
+		;
+	}
+
+	getCertificate(key, pageUrl, imgSrc, imgDescription) {
+		return (
+			<li key={key}  style={displayInlineBlock}>
+				<a href={pageUrl}>
+					<img src={imgSrc} alt={imgDescription}/>
 				</a>
-				<a href={architect_url}>
-					<img src={architect} alt="AWS Solution Architect badge"/>
-				</a>
-				<a href={developer_url}>
-					<img src={developer} alt="AWS Developer badge"/>
-				</a>
-				<a href={sysops_url}>
-					<img src={sysops} alt="AWS SysOps Administrator badge"/>
-				</a>
-			</section>
+			</li>
 		);
 	}
 }
 
 export default Certificates;
+
+const center = {
+	textAlign: 'center'
+}
+
+const displayInlineBlock = {
+	display: 'inline-block'
+}
