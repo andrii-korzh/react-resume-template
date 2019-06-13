@@ -3,7 +3,6 @@ import Certificates from "./Certificates";
 
 class Resume extends Component {
 	render() {
-
 		if (this.props.data) {
 			// var skillmessage = this.props.data.skillmessage;
 			// var proficient = this.props.data.proficient;
@@ -14,7 +13,7 @@ class Resume extends Component {
 					<p>{education.description}</p></div>
 			})
 			var work = this.props.data.work.map(function (work) {
-				return <div key={work.company}><h3><a href={work.website}>{work.company}</a></h3>
+				return <div key={work.company}><h3>{getWork(work)}</h3>
 
 					<p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
 				</div>
@@ -24,6 +23,11 @@ class Resume extends Component {
 				return <li key={skills.name}><span style={{width: skills.level}}
 				                                   className={className}></span><em>{skills.name}</em></li>
 			})
+		}
+
+		function getWork(work) {
+			if( !work.website) return work.company;
+			return <a href={work.website}>{work.company}</a>;
 		}
 
 		return (

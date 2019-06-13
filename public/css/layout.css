@@ -243,7 +243,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #000c89; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -940,7 +940,7 @@ footer {
    position: relative;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #008aff; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
