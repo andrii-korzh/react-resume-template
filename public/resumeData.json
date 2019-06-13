@@ -36,6 +36,11 @@
         "name":"twitter",
         "url":"https://twitter.com/AndriiKorzh",
         "className":"fa fa-twitter"
+      },
+      {
+        "name":"youtube",
+        "url":"https://www.youtube.com/c/AndriiKorzh",
+        "className":"fa fa-youtube"
       }
     ]
   },
