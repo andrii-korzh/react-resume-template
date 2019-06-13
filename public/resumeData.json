@@ -18,11 +18,6 @@
     "resumedownload":"https://ak-web-resume.s3.amazonaws.com/resume.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"http://facebook.com/andrii-korzh",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/andrii-korzh/",
         "className":"fa fa-linkedin"
@@ -31,6 +26,16 @@
         "name":"github",
         "url":"https://github.com/andrii-korzh",
         "className":"fa fa-github"
+      },
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/andrii-korzh",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/AndriiKorzh",
+        "className":"fa fa-twitter"
       }
     ]
   },
