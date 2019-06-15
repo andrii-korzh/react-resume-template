@@ -342,7 +342,7 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
-
+   header { background: #161415 url(../images/mobile/header-background.jpg) bottom; }
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap ul#nav { width: auto; float: none; }
