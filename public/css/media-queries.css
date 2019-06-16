@@ -455,14 +455,6 @@
   -------------------------------------------------------------------------- */
 
 @media only screen and (max-width: 480px) {
-    .cert-image {
-        width: 64px;
-        height: 64px;
-    }
-
-    header {
-        background: #161415 url(../images/mobile/header-background.jpg) bottom;
-    }
 
     /* mobile navigation
     -------------------------------------------------------------------- */
