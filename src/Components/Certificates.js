@@ -1,10 +1,5 @@
 import React, {Component} from 'react';
 
-const img_home = "images/aws/";
-const practitioner = img_home + "aws_practitioner.png";
-const architect = img_home + "aws_solution_architect.png";
-const developer = img_home + "aws_developer.png";
-const sysops = img_home + "aws_sysops_administrator.png";
 const badge_url = "https://www.certmetrics.com/amazon/public/badge.aspx";
 const practitioner_url = badge_url + "?i=9&t=c&d=2018-12-27&ci=AWS00691366";
 const architect_url = badge_url + "?i=1&t=c&d=2018-12-31&ci=AWS00691366";
@@ -16,22 +11,35 @@ const architectDescription = "AWS Solution Architect badge";
 const developerDescription = "AWS Developer badge";
 const sysOpsDescription = "AWS SysOps Administrator badge";
 
+const imgHome = "images/aws";
+const practitioner = "practitioner.png";
+const architect = "solution_architect.png";
+const developer = "developer.png";
+const sysops = "sysops_administrator.png";
+
 const idPrefix = "certs-";
 let lastId = 0;
 
 class Certificates extends Component {
+
 	componentWillMount() {
 		this.id = idPrefix + (++lastId);
 	}
 
 	render() {
+		const dimension = "";
+		const practitionerImage = imgHome + dimension + "/" + practitioner;
+		const architectImage = imgHome + dimension + "/" + architect;
+		const developerImage = imgHome + dimension + "/" + developer;
+		const sysopsImage = imgHome + dimension + "/" + sysops;
+
 		return (
 			<section style={center}>
-				<ul className="nav">
-					{this.getCertificate(practitioner_url, practitioner_url, practitioner, practitionerDescription)}
-					{this.getCertificate(architect_url, architect_url, architect, architectDescription)}
-					{this.getCertificate(developer_url, developer_url, developer, developerDescription)}
-					{this.getCertificate(sysops_url, sysops_url, sysops, sysOpsDescription)}
+				<ul>
+					{this.getCertificate(practitioner_url, practitioner_url, practitionerImage, practitionerDescription)}
+					{this.getCertificate(architect_url, architect_url, architectImage, architectDescription)}
+					{this.getCertificate(developer_url, developer_url, developerImage, developerDescription)}
+					{this.getCertificate(sysops_url, sysops_url, sysopsImage, sysOpsDescription)}
 				</ul>
 			</section>
 		)

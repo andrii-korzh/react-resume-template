@@ -18,6 +18,7 @@ class About extends Component {
 
 		return (
 			<section id="about">
+				<div className="space-160"/>
 				<div className="row">
 					<div className="three columns">
 						<img className="profile-pic" src={profilepic} alt="Andrii Korzh Profile Pic"/>
@@ -46,7 +47,7 @@ class About extends Component {
 						</div>
 					</div>
 				</div>
-
+				<div className="space-96"/>
 			</section>
 		);
 	}

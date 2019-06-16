@@ -112,18 +112,15 @@
       width: 48px;
       height: 48px;
       text-align: left;
-      background-color: #5fcc00;
+      background-color: rgba(0, 110, 166, 0);
       position: relative;
-      border: none;
+      border: 2px solid #0F9095;
       float: right;
 
       font: 0/0 a;
       text-shadow: none;
       color: transparent;
-
       position: relative;
-      top: 0px;
-      right: 30px;
    }
 
 	#nav-wrap > a:before,
@@ -215,7 +212,7 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   /*#about .profile-pic { display: none; }*/
    #about .download .button {
       width: 100%;
       text-align: center;
