@@ -23,23 +23,24 @@ class Certificates extends Component {
 	componentWillMount() {
 		this.id = idPrefix + (++lastId);
 	}
+
 	render() {
 		return (
-		<section style={center}>
-			<ul className="nav">
-				{this.getCertificate(practitioner_url, practitioner_url, practitioner, practitionerDescription)}
-				{this.getCertificate(architect_url, architect_url, architect, architectDescription)}
-				{this.getCertificate(developer_url, developer_url, developer, developerDescription)}
-				{this.getCertificate(sysops_url, sysops_url, sysops, sysOpsDescription)}
-			</ul>
-		</section>
-	)
-		;
+			<section style={center}>
+				<ul className="nav">
+					{this.getCertificate(practitioner_url, practitioner_url, practitioner, practitionerDescription)}
+					{this.getCertificate(architect_url, architect_url, architect, architectDescription)}
+					{this.getCertificate(developer_url, developer_url, developer, developerDescription)}
+					{this.getCertificate(sysops_url, sysops_url, sysops, sysOpsDescription)}
+				</ul>
+			</section>
+		)
+			;
 	}
 
 	getCertificate(key, pageUrl, imgSrc, imgDescription) {
 		return (
-			<li key={key}  style={displayInlineBlock}>
+			<li key={key} style={displayInlineBlock}>
 				<a href={pageUrl}>
 					<img src={imgSrc} alt={imgDescription}/>
 				</a>
