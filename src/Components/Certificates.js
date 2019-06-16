@@ -17,6 +17,11 @@ const architect = "solution_architect.png";
 const developer = "developer.png";
 const sysops = "sysops_administrator.png";
 
+const practitionerImage = imgHome + "/" + practitioner;
+const architectImage = imgHome + "/" + architect;
+const developerImage = imgHome + "/" + developer;
+const sysopsImage = imgHome + "/" + sysops;
+
 const idPrefix = "certs-";
 let lastId = 0;
 
@@ -27,12 +32,6 @@ class Certificates extends Component {
 	}
 
 	render() {
-		const dimension = "";
-		const practitionerImage = imgHome + dimension + "/" + practitioner;
-		const architectImage = imgHome + dimension + "/" + architect;
-		const developerImage = imgHome + dimension + "/" + developer;
-		const sysopsImage = imgHome + dimension + "/" + sysops;
-
 		return (
 			<section style={center}>
 				<ul>
@@ -42,15 +41,14 @@ class Certificates extends Component {
 					{this.getCertificate(sysops_url, sysops_url, sysopsImage, sysOpsDescription)}
 				</ul>
 			</section>
-		)
-			;
+		);
 	}
 
 	getCertificate(key, pageUrl, imgSrc, imgDescription) {
 		return (
 			<li key={key} style={displayInlineBlock}>
 				<a href={pageUrl}>
-					<img src={imgSrc} alt={imgDescription}/>
+					<img className="cert-image" src={imgSrc} alt={imgDescription}/>
 				</a>
 			</li>
 		);
